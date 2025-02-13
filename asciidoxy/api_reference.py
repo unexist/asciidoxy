@@ -372,7 +372,7 @@ class ApiReference:
         # TODO assert element.id not in self._id_index
         self._id_index[element.id] = element
 
-        # Handle unset name
+        # TODO: Handle unset name
         if not element.name:
             element.name = f'unknown-{element.id}'
 
